@@ -102,6 +102,7 @@ if(Device.isPhone()) {
   titlesta.addSpacer(3)
   titletext = titlesta.addText('Github')
   titletext.font = new Font('Noto Sans Tc', 20)
+  titletext.url = 'https://github.com/'
   var allsta = allcon.addStack() ;
   allsta.size = new Size(erw, erw/3-10)
   allsta.layoutHorizontally()
